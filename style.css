@@ -1,0 +1,213 @@
+body{
+	margin:0;
+	overflow:hidden;
+}
+.site-header{
+
+	
+}
+.border-vertical-line{
+   width: 60px;
+    height: 1px;
+    background-color: black;
+    float: left;
+    margin: 225px 0px 16.5px 5px;
+}
+.side-button{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    float: left;
+    margin-bottom: 5px;
+}
+.side-button img{
+    width:100%;
+    height:100%;
+}
+.site-header-wrap{
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 380px;
+    box-shadow: inset 10px -10px 22px 0px rgba(0,0,0,0.99);
+}
+.site-header-wrap h1{
+	margin: 16.5px;
+    float: left;
+}
+.site-logo{
+	width: 300px;
+    position: absolute;
+    z-index: 2;
+    left: 30px;
+}
+.site-logo-wrapper{
+}
+.site-logo-wrapper img{
+   width: 100%;
+   height: 100%;
+}
+
+.side-border{
+	position: absolute;
+    left: 0;
+    width: 70px;
+    height: 100%;
+    
+}
+.site-header-wrap,
+.side-border{
+	background: grey;
+    z-index: 1;
+}
+
+.site-main-nav{
+	position: absolute;
+    background-color: rgba(204, 192, 192, 0.7);
+    width: 250px;
+    height: 400px;
+    top: 320px;
+    left: 90px;
+    border-radius: 15px;
+    z-index: 2;
+}
+.site-main-nav ul{
+	 list-style-type: none;
+	 padding:0;
+}
+.site-main-nav li{
+    font-size:16px;
+    float: left;
+    clear: both;
+    font-family: Arial;
+    color: #000000;
+    font-size: 16px;
+    background: #93a9b8;
+    padding: 3px 0px;
+    text-decoration: none;
+    margin-bottom:5px;
+    width: 100%;
+    text-align:center;
+}		
+
+/* Site header end */
+/* Sidebar start */
+.sidebar-wrapper{
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    background-color: grey;
+    left: 70px;
+    z-index: 1;
+    box-shadow: inset -19px 0px 26px -10px rgba(0,0,0,0.99);
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+.sidebar-wrapper-open{
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    background-color: grey;
+    left: 70px;
+    z-index: 1;
+    box-shadow: inset -19px 0px 26px -10px rgba(0,0,0,0.99);
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+/* Sidebar end */
+.page{
+	background-image: url("pic/wall.jpg");
+    background-size: 100%;
+    margin: 0;
+    width: 	1600px;
+    height: 1100px;
+    background-repeat:no-repeat;
+    overflow: 	hidden;
+}
+.main{
+	height: 1005px;
+    background-color: white;
+    float: right;
+    margin: 95px 30px 0px 400px;
+}
+.blog-post-container{
+    overflow: scroll;
+    width: 66%;
+    height: 100%;
+    float: left;
+    margin: 0 0 0 3%;
+    padding: 0 2%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.blog-post{
+	width: 100%;
+    float: left;
+    margin: 40px 0 0 0;
+    display: inline-block;
+    border: 1px solid;
+    border-top: 10px solid;
+}
+.featured-img{
+    width: 100%;
+    height: 300px;
+    background-image: url("pic/featured.jpg");
+    background-position: center top;
+    float: left;
+}
+.featured-img2{
+    width: 100%;
+    height: 300px;
+    background-image: url("pic/featured2.jpg");
+    background-position: center top;
+    float: left;
+}
+.blog-button-left img{
+    width: 100px;
+    float: left;
+    margin-top: 200px;   
+}
+.blog-button-right img{
+    width: 100px;
+    float: right;
+    margin-top: 200px;
+}
+
+.blog-post-inner{
+    background-color: white;
+    float: left;
+}
+.blog-post-header h1,
+.blog-post-meta{
+    text-align: center;
+}
+.blog-post-content p{
+    text-align: center;
+    text-indent: 1.5em;
+}
+.blog-read-more{
+    width: 100px;
+    background-color: lightblue;
+    padding: 10px 10px 10px 10px;
+    text-indent: 0;
+    margin: 10px 0px 10px 440px;
+}
+.timeline{
+    background-image: url("pic/timeline.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 730px;
+    float: right;
+    margin: 40px 3% 0px 0px;
+}
+.page1{
+	background-image: url("pic/wall2.jpg");
+    background-size: 100%;
+    margin: 0;
+    width: 	1600px;
+    height: 1100px;
+    background-repeat:no-repeat;
+    overflow: 	hidden;
+}
