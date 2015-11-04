@@ -28,6 +28,7 @@ _attr: What attribute we are changing.
 _value: What values we are changing.
 _first and _last: Specifies range in which we want to change class
 used if more than 1 same class DOM needs to be changed.
+change_class_style(string,string,int/string,int,string/int);
 */
 function change_class_style(_class,_attr,_value,_first,_last) {
 	var  _el = document.getElementsByClassName(_class);

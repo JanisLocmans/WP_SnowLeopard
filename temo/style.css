@@ -2,6 +2,9 @@ body{
 	margin:0;
 	overflow:hidden;
 }
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
 /*-------------------------------*/
 /*Site Panel:Begin               */
 /*-------------------------------*/
@@ -71,10 +74,9 @@ body{
 }
 #panel-right{
     width: 70px;
-    height: 1030px;
+    height: 100%;
     position: absolute;
     right: 0;
-    top: 70px;
 }
 #panel-button-right{
     webkit-border-radius: 60;
@@ -86,7 +88,7 @@ body{
     background: #9aa9b3;
     padding: 50px 20px 20px 40px;
     text-decoration: none;
-    top: 40%;
+    top: 50%;
     position: relative;
 }
 #panel-bottom{
@@ -94,7 +96,6 @@ body{
     height: 70px;
     position: absolute;
     bottom: 0;
-    background-color: red;
 }
 #panel-button-bottom{
     border-radius: 60px;
@@ -104,7 +105,7 @@ body{
     background: #9aa9b3;
     padding: 50px 30px 20px 40px;
     text-decoration: none;
-    left: 800px;
+    left: 50%;
     position: relative;
     display: inline-block;
 }
@@ -205,20 +206,20 @@ body{
 .blog-post-container{
     width: 100%;
     float: left;
-    margin: 95px 0 0 330px;
+    margin: 130px 0 0 365px;
     -webkit-transition: margin 2s; /* Safari */
     transition: margin 2s;
 }
 .blog-post-container-open{
     width: 100%;
     float: left;
-    margin: 95px 0 0 80px;
+    margin: 130px 0 0 80px;
     -webkit-transition: margin 2s; /* Safari */
     transition: margin 2s;
 
 }
 .blog-post{
-	width: 350px;
+	width: 450px;
     float: left;
     margin: 0 0 0 50px;
     display: inline-block;
@@ -263,20 +264,30 @@ body{
     text-indent: 1.5em;
 }
 .blog-read-more{
-    width: 100px;
     background-color: lightblue;
-    padding: 10px 10px 10px 10px;
     text-indent: 0;
-    margin: 10px auto;
+    margin: auto;
+    opacity: 0;
+    position: relative;
+    width: 90%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+.blog-read-more h1{
+    position: relative;
+    top: 50%;
+}
+.blog-read-more:hover{
+    opacity: 0.5;
 }
 .timeline{
     background-image: url("pic/timeline.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
-    width: 75%;
-    height: 200px;
+    width: 90%;
+    height: 600px;
     float: left;
-    margin: 40px 3% 0px 380px;
+    margin: 0px;
 }
 /*-------------------------------*/
 /*Blog:End                       */

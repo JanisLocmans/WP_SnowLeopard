@@ -24,7 +24,6 @@
 					<div class="border-vertical-line">
 
 					</div>
-
 						<a id="src-button" class="side-button"><img src="pic/src.png"></a>
 						<a id="side-bar-button" class="side-button"><img src="pic/arw.png"></a>
 						<a id="nav-button" class="side-button"><img src="pic/nav.png"></a>
@@ -49,9 +48,10 @@
 								</div>
 
 								<div class="border-vertical-line">
-
+									
 								</div>
-								
+								<div class="timeline">
+								</div>
 				</div>
 				<div id="panel-right">
 					<div id="panel-button-right">
@@ -75,12 +75,9 @@
 										<article class="blog-post">
 											<a>
 												<div class="featured-img">
-													<!--<div class="blog-button-left">
-														<img src="pic/arrow-left.png">
-													</div>
-													<div class="blog-button-right">
-														<img src="pic/arrow-right.png">
-													</div>-->
+													<aside class="blog-read-more"> 
+														<h1>READ MORE</h1> 
+													</aside>
 												</div>
 											</a>
 											<div class="blog-post-inner">
@@ -102,9 +99,8 @@
 												<div class="blog-post-content">
 													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
 															cillum dolore eu fugiat nulla pariatur. Excepteur 
-															sint occaecat cupidatat non proident, sunt in culpa
-															 qui officia deserunt mollit anim id est laboru</p>
-														<aside class="blog-read-more"> READ MORE </aside>
+															sint occaecat cupidatat non proident.....</p>
+														
 
 												</div>
 											</div>							
@@ -113,12 +109,9 @@
 										<article class="blog-post">
 											<a>
 												<div class="featured-img2">
-													<!--<div class="blog-button-left">
-														<img src="pic/arrow-left.png">
-													</div>
-													<div class="blog-button-right">
-														<img src="pic/arrow-right.png">
-													</div>-->
+													<aside class="blog-read-more"> 
+														<h1>READ MORE</h1> 
+													</aside>
 												</div>
 											</a>
 											<div class="blog-post-inner">
@@ -140,10 +133,8 @@
 												<div class="blog-post-content">
 													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
 															cillum dolore eu fugiat nulla pariatur. Excepteur 
-															sint occaecat cupidatat non proident, sunt in culpa
-															 qui officia deserunt mollit anim id est laboru</p>
-														<aside class="blog-read-more"> READ MORE </aside>
-
+															sint occaecat cupidatat non proident.....</p>
+													
 												</div>
 											</div>									
 										</article>
@@ -151,12 +142,9 @@
 										<article class="blog-post">
 											<a>
 												<div class="featured-img2">
-													<!--<div class="blog-button-left">
-														<img src="pic/arrow-left.png">
-													</div>
-													<div class="blog-button-right">
-														<img src="pic/arrow-right.png">
-													</div>-->
+													<aside class="blog-read-more"> 
+														<h1>READ MORE</h1> 
+													</aside>
 												</div>
 											</a>
 											<div class="blog-post-inner">
@@ -178,9 +166,8 @@
 												<div class="blog-post-content">
 													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
 															cillum dolore eu fugiat nulla pariatur. Excepteur 
-															sint occaecat cupidatat non proident, sunt in culpa
-															 qui officia deserunt mollit anim id est laboru</p>
-														<aside class="blog-read-more"> READ MORE </aside>
+															sint occaecat cupidatat non proident.....</p>
+														
 
 												</div>
 											</div>									
@@ -189,8 +176,7 @@
 
 
 									</div>
-									<div class="timeline">
-									</div>
+									
 							</div>
 						</div>
 						<div class="page1">
