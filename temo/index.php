@@ -7,8 +7,9 @@
 			</script>
 			<!-- the jScrollPane script -->
 			<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-			<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+			
 			<script type="text/javascript" src="js/script.js"></script>
+			<script type="text/javascript" src="js/scroll.js"></script>
 
 	</head>
 	<body>
@@ -183,6 +184,7 @@
 
 						</div>
 				</div>
+				<?php arf();?>
 		</div>
 	</body>
 </html>

@@ -206,17 +206,24 @@ h1,h2,h3,h4,h5,h6{
 .blog-post-container{
     width: 100%;
     float: left;
-    margin: 130px 0 0 365px;
-    -webkit-transition: margin 2s; /* Safari */
-    transition: margin 2s;
+    -webkit-transition: left 1s;
+    transition: left 1s;
+    box-shadow: inset -60px 0px 50px 60px rgba(0,0,0,0.75);
+    padding: 70px;
+    position: relative;
+    top: 10%;
+    left: 320px;
 }
 .blog-post-container-open{
     width: 100%;
     float: left;
-    margin: 130px 0 0 80px;
-    -webkit-transition: margin 2s; /* Safari */
-    transition: margin 2s;
-
+    -webkit-transition: left 1s;
+    transition: left 1s;
+    box-shadow: inset -60px 0px 50px 60px rgba(0,0,0,0.75);
+    padding: 70px;
+    position: relative;
+    top: 10%;
+    left: 70px;
 }
 .blog-post{
 	width: 450px;

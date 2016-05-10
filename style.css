@@ -1,0 +1,215 @@
+/*
+Theme Name: SnowLeopard
+Theme URI: http://themeshaper.com/
+Author: JohnThemeWorks
+Author URI: http://JohnThemeWorks.com/
+Description:
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags:
+*/
+
+body{
+	margin:0;
+	overflow:hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+/*-------------------------------*/
+/*Site Panel:Begin               */
+/*-------------------------------*/
+.side-button{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.side-button img{
+    width:100%;
+    height:100%;
+}
+.sidebar-wrapper ul{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.sidebar-wrapper ul li{
+    height: 100%;
+}
+
+
+#panel-right{
+    width: 70px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+#panel-button-right{
+    webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #9aa9b3;
+    padding: 50px 20px 20px 40px;
+    text-decoration: none;
+    top: 50%;
+    position: relative;
+}
+#panel-bottom{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+}
+#panel-button-bottom{
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #9aa9b3;
+    padding: 50px 30px 20px 40px;
+    text-decoration: none;
+    left: 50%;
+    position: relative;
+    display: inline-block;
+}
+	
+
+.sidebar-wrapper{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-color: grey;
+    top: 50px;
+    z-index: 1;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+.sidebar-wrapper-open{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    background-color: grey;
+    top: 50px;
+    z-index: 1;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+/*-------------------------------*/
+/*Site Panel:End                 */
+/*-------------------------------*/
+
+/*-------------------------------*/
+/*Page:Begin                     */
+/*-------------------------------*/
+.page{
+	background-image: url("pic/wall.jpg");
+    background-size: 100%;
+    margin: 0;
+    width: 	100%;
+    height: 1100px;
+    background-repeat:no-repeat;
+    overflow: 	hidden;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0px 0 0 0;
+    background-color: rgba(59,200,232,0.2);
+    
+}
+/*-------------------------------*/
+/*Page:End                       */
+/*-------------------------------*/
+
+/*-------------------------------*/
+/*Blog:Begin                     */
+/*-------------------------------*/
+.blog-post-container{
+    width: 100%;
+    float: left;
+    -webkit-transition: left 1s;
+    transition: left 1s;
+    box-shadow: inset -60px 0px 50px 60px rgba(0,0,0,0.75);
+    padding: 70px;
+    position: relative;
+    top: 10%;
+    left: 320px;
+}
+.blog-post-container-open{
+    width: 100%;
+    float: left;
+    -webkit-transition: left 1s;
+    transition: left 1s;
+    box-shadow: inset -60px 0px 50px 60px rgba(0,0,0,0.75);
+    padding: 70px;
+    position: relative;
+    top: 10%;
+    left: 70px;
+}
+.blog-post{
+	width: 450px;
+    float: left;
+    margin: 0 0 0 50px;
+    display: inline-block;
+    border: 1px solid;
+    border-top: 10px solid;
+}
+.featured-img{
+    width: 100%;
+    height: 300px;
+    background-image: url("pic/featured.jpg");
+    background-position: center top;
+    float: left;
+}
+.blog-button-left img{
+    width: 100px;
+    float: left;
+    margin-top: 200px;   
+}
+.blog-button-right img{
+    width: 100px;
+    float: right;
+    margin-top: 200px;
+}
+
+.blog-post-inner{
+    background-color: white;
+    float: left;
+    width: 100%;
+}
+.blog-post-header h1,
+.blog-post-meta{
+    text-align: center;
+    width: 90%;
+    margin: 0 5%;
+}
+.blog-post-content p{
+    text-align: center;
+    text-indent: 1.5em;
+}
+.blog-read-more{
+    background-color: lightblue;
+    text-indent: 0;
+    margin: auto;
+    opacity: 0;
+    position: relative;
+    width: 90%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+.blog-read-more h1{
+    position: relative;
+    top: 50%;
+}
+.blog-read-more:hover{
+    opacity: 0.5;
+}
+/*-------------------------------*/
+/*Blog:End                       */
+/*-------------------------------*/

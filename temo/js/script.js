@@ -1,7 +1,8 @@
  window.onload = function()
-    {   	
+    {  
+    	var post_count = document.querySelectorAll('.blog-post').length;
+		document.getElementById('blog-container-id').style.width = 1700 + 'px';	
         document.getElementById('side-bar-button').addEventListener( 'click' , function() {
-
 // TODO:Inset Logic, If element is currently on screen.
         	toggle_class('js-sidebar','sidebar-wrapper','sidebar-wrapper-open');
         	toggle_class('blog-container-id','blog-post-container','blog-post-container-open');
