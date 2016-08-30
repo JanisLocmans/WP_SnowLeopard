@@ -20,83 +20,56 @@ h1,h2,h3,h4,h5,h6{
 /*-------------------------------*/
 /*Site Panel:Begin               */
 /*-------------------------------*/
-.side-button{
+.top-frame,
+.right-frame,
+.bottom-frame,
+.left-frame{
+    position: absolute;
+    background: teal;
+    z-index: 5;       
+}
+.top-frame {
+    width: 100%;
+    height: 50px;
+    top: 0px;
+}
+.menu-buttons{
+    position: absolute;
+    left: 50px;
+}
+.side-button img {
     width: 50px;
     height: 50px;
+}
+.menu-list {
+    height: 50px;
+    position: absolute;
+    left: 220px;
+}
+.menu-list li {
     float: left;
+    list-style: none;
 }
-.side-button img{
-    width:100%;
-    height:100%;
+.menu-list img {
+    width: 50px;
+    height: 50px;
 }
-.sidebar-wrapper ul{
+.right-frame {
+    width: 50px;
     height: 100%;
-    padding: 0;
-    margin: 0;
-}
-.sidebar-wrapper ul li{
-    height: 100%;
-}
-
-
-#panel-right{
-    width: 70px;
-    height: 100%;
-    position: absolute;
-    right: 0;
-}
-#panel-button-right{
-    webkit-border-radius: 60;
-    -moz-border-radius: 60;
-    border-radius: 60px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    background: #9aa9b3;
-    padding: 50px 20px 20px 40px;
-    text-decoration: none;
-    top: 50%;
-    position: relative;
-}
-#panel-bottom{
-    width: 100%;
-    height: 70px;
-    position: absolute;
-    bottom: 0;
-}
-#panel-button-bottom{
-    border-radius: 60px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    background: #9aa9b3;
-    padding: 50px 30px 20px 40px;
-    text-decoration: none;
-    left: 50%;
-    position: relative;
-    display: inline-block;
-}
-	
-
-.sidebar-wrapper{
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    background-color: grey;
+    left: 0px;
     top: 50px;
-    z-index: 1;
-    -webkit-transition: width 1s;
-    transition: width 1s;
 }
-.sidebar-wrapper-open{
+.bottom-frame {
     width: 100%;
-    height: 250px;
-    position: absolute;
-    background-color: grey;
+    height: 50px;
+    bottom: 0px;
+}
+.left-frame {
+    width: 50px;
+    height: 100%;
+    right: 0px;
     top: 50px;
-    z-index: 1;
-    -webkit-transition: width 1s;
-    transition: width 1s;
 }
 /*-------------------------------*/
 /*Site Panel:End                 */
@@ -138,7 +111,6 @@ h1,h2,h3,h4,h5,h6{
     padding: 70px;
     position: relative;
     top: 10%;
-    left: 320px;
 }
 .blog-post-container-open{
     width: 100%;
