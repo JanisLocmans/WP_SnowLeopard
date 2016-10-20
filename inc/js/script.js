@@ -4,13 +4,19 @@
    		initialize(arf, 'marginLeft');
     	var post_count = document.querySelectorAll('.blog-post').length;
 		document.getElementById('blog-container-id').style.width = 4000 + 'px';
-		document.getElementById('blog-container-id').style.marginLeft = 0 + 'px';		
-        /*document.getElementById('side-bar-button').addEventListener( 'click' , function() {
-// TODO:Inset Logic, If element is currently on screen.
-        	toggle_class('js-sidebar','sidebar-wrapper','sidebar-wrapper-open');
-        	toggle_class('blog-container-id','blog-post-container','blog-post-container-open');
-        	toggle_class('site-header-id','site-header-wrap','site-header-wrap-open');
-        } );*/
+		document.getElementById('blog-container-id').style.marginLeft = 0 + 'px';	
+
+
+        document.getElementById('js-side-bar-button').addEventListener( 'click' , function() {
+        // TODO:Inset Logic, If element is currently on screen.
+            toggle_class('js-panel-dropdown','panel-dropdown-closed','panel-dropdown-open');
+            toggle_class('blog-container-id','blog-post-container','blog-post-container-open');
+        } );
+
+        document.getElementById('js-nav-button').addEventListener( 'click' , function() {
+            toggle_class('js-menu-list','menu-list','menu-list-open');
+        } );
+
     }
 function toggle_class(el_id, el_cls, el_new_cls){
 	var _el_id = document.getElementById(el_id);
