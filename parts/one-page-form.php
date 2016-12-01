@@ -19,7 +19,7 @@ if (isset($_POST['page'])) {
 	echo '<input type="submit">' . '</form>'; 
 
 	wp_reset_postdata();
-
+//Test function
 function arf() {
 	$pages = get_option('snow_one_page_option', false );
 	var_dump($pages);

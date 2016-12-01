@@ -14,8 +14,17 @@
         } );
 
         document.getElementById('js-nav-button').addEventListener( 'click' , function() {
-            toggle_class('js-menu-list','menu-list','menu-list-open');
-        } );
+
+            //inset logic, if menu class is triggered...
+
+            toggle_class('js-menu-list-wrapper','menu-list-wrapper','menu-list-wrapper-open');
+            setTimeout(function(){ 
+               toggle_class('js-menu-list','menu-list','menu-list-open');
+
+           }, 1000);
+
+        }
+     );
 
     }
 function toggle_class(el_id, el_cls, el_new_cls){
@@ -122,3 +131,5 @@ function getStyle(el, cssprop){
  else //try and get inline style
   return el.style[cssprop]
 }
+
+

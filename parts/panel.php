@@ -8,19 +8,24 @@
 						<a id="src-button" class="side-button"><img src="<?php bloginfo('template_directory'); ?>/pic/src.png"></a>
 						<a id="js-side-bar-button" class="side-button"><img src="<?php bloginfo('template_directory'); ?>/pic/arw.png"></a>
 						<a id="js-nav-button" class="side-button"><img src="<?php bloginfo('template_directory'); ?>/pic/nav.png"></a>
-					</div>
-
-					<div id="js-menu-list" class="menu-list">
-							<li><a>Home</a></li>
-							<li><a>Menu</a></li>
-							<li><a>Archive</a></li>
-							<li><a>BookShelf</a></li>
-					</div>
-
+					</div>					
 					<div id="js-panel-dropdown" class="panel-dropdown-closed">
+						<!-- WIDGETS AND STUFF WILL GO HERE-->
 					</div>
-
 				</div>
+					<div id="js-menu-list-wrapper" class="menu-list-wrapper">
+						<div id="js-menu-list" class="menu-list">
+						<?php	
+							$query1 = new WP_Query(array('post_type' => 'page'));
+
+								while ( $query1->have_posts() ) {
+									$query1->the_post();
+
+									echo '<li>'. '<span>'. '<a>' . $post->post_name . '</a>' . '</span>'.'</li>';
+								}
+							wp_reset_postdata();  ?>
+						</div>
+					</div>
 				<div class="right-frame">
 				</div>
 				<div class="bottom-frame">
